@@ -3,8 +3,8 @@ const Workout = require("../models/workout");
 
 router.get("/api/workouts", (req,res) => {
     Workout.find({})
-    //-1 descending order
-    .sort({_id: -1})
+    //1 ascending order
+    .sort({_id: 1})
     .then(dbWorkout => {
         res.json(dbWorkout);
     })

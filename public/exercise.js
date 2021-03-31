@@ -33,9 +33,11 @@ async function initExercise() {
 initExercise();
 
 function handleWorkoutTypeChange(event) {
+  //retrives value of input being called
   workoutType = event.target.value;
 
   if (workoutType === "cardio") {
+    //d.none display none
     cardioForm.classList.remove("d-none");
     resistanceForm.classList.add("d-none");
   } else if (workoutType === "resistance") {

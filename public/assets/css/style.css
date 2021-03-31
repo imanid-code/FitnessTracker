@@ -10,14 +10,16 @@ html,
 body,
 .wrapper {
   height: 100%;
+  background-image: url(../img/htmlbackground1.jpeg);
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../img/htmlbackground1.jpeg);
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: aqua;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -46,6 +48,7 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+ 
 }
 
 select {
@@ -439,3 +442,5 @@ form > button {
     right: -320px;
   }
 }
+
+

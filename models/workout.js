@@ -1,6 +1,6 @@
-const monogoose = require("mongoose");
+const mongoose = require("mongoose");
  
-const Schema = monogoose.Schema;
+const Schema = mongoose.Schema;
  
 const workoutSchema = new Schema ({
  
@@ -30,5 +30,5 @@ const workoutSchema = new Schema ({
  
 //.model makes a copy of the schema , mongoose automatically looks for
 //.model (name of model, name of schema)
-const Workout = monogoose.model("Workout", workoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 module.exports = Workout;

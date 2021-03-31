@@ -2,6 +2,7 @@ const API = {
     async getLastWorkout() {
       let res;
       try {
+        //makes web request , take one path, uses promises
         res = await fetch("/api/workouts");
       } catch (err) {
         console.log(err)
