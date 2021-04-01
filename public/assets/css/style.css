@@ -17,6 +17,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url(../img/htmlbackground1.jpeg);
 }
+#statsbody{
+  background-color: white;
+  background-image: none;
+}
 
 nav {
   background-color: aqua;
