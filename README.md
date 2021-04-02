@@ -1,10 +1,12 @@
 
 # Fitness Tracker
     
-## Description
 
-   
+
+![preview](public/assets/img/preview.png)
+![preview2]
 ---
+## Description
 For this assignment, you'll create a workout tracker. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
     
 ## Table of Contents 
@@ -33,7 +35,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 ## Usage 
 
-This application can be used to track users workouts.
+A consumer will reach their fitness goals more quickly when they track their workout progress.
 
 ---
 
