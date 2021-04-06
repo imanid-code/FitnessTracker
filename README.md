@@ -4,7 +4,7 @@
 
 
 ![preview](public/assets/img/preview.png)
-![preview2]
+![preview2](public/assets/img/preview2.png)
 ---
 ## Description
 For this assignment, you'll create a workout tracker. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
